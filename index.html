@@ -1,130 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dream Ladders</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {font-family: Arial; margin:0; background:#f5f7fa;}
-    .container {padding:40px 20px; max-width:1000px; margin:auto;}
-    h1,h2 {color:#111;}
-    p {color:#444;}
-    .hero {text-align:center; background:#fff; padding:60px 20px;}
-    .btn {
-      display:inline-block;
-      background:#007bff;
-      color:#fff;
-      padding:12px 20px;
-      text-decoration:none;
-      border-radius:6px;
-      margin-top:15px;
-    }
-    .card {
-      background:#fff;
-      padding:20px;
-      margin:15px 0;
-      border-radius:10px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.1);
-    }
-    .pricing {display:flex; flex-wrap:wrap; gap:15px;}
-    .price-box {
-      flex:1;
-      background:#fff;
-      padding:20px;
-      border-radius:10px;
-      text-align:center;
-      box-shadow:0 2px 8px rgba(0,0,0,0.1);
-    }
-    .highlight {color:green; font-weight:bold;}
-    .loss {color:red; font-weight:bold;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dream Ladders</title>
+
+<style>
+body {font-family: 'Segoe UI'; margin:0; background:#f4f6f9;}
+.container {max-width:1100px; margin:auto; padding:50px 20px;}
+.hero {background:#0f172a; color:white; text-align:center; padding:80px 20px;}
+h1,h2 {margin-bottom:15px;}
+.btn {
+  background:#22c55e; color:white; padding:14px 24px;
+  border-radius:8px; text-decoration:none; display:inline-block;
+  margin-top:20px;
+}
+.card {
+  background:white; padding:25px; margin:20px 0;
+  border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+.grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
+.highlight {color:#16a34a; font-weight:bold;}
+</style>
 </head>
 
 <body>
 
 <!-- HERO -->
 <section class="hero">
-  <h1>Avoid ₹5–10 Lakhs Loss in Your House Construction</h1>
-  <p>AI + Civil Engineer Verified Estimation for Your Dream Home</p>
-  <a class="btn" href="https://wa.me/917093218658">Get My Estimate</a>
+  <h1>AI-Powered Decision System for Home Construction</h1>
+  <p>Avoid ₹5–10 Lakhs Loss with Engineer + AI Verified Estimation</p>
+
+  <a class="btn" href="https://wa.me/917093218658?text=Hi I want estimation">
+    Get My Estimate
+  </a>
 </section>
 
-<!-- PROBLEM -->
+<!-- SERVICES -->
 <div class="container">
-  <h2>Most Homeowners Lose Money Before Construction Starts</h2>
-  <div class="card">
-    <p>❌ No proper cost estimation</p>
-    <p>❌ Contractor guesswork</p>
-    <p>❌ No material clarity</p>
-    <p class="loss">Result: ₹5L–₹10L extra spending</p>
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>AI Cost Estimation</h3>
+      <p>Instant construction cost with material breakdown</p>
+    </div>
+    <div class="card">
+      <h3>Engineer Verification</h3>
+      <p>Manual validation for high accuracy (±2%)</p>
+    </div>
+    <div class="card">
+      <h3>Planning & Optimization</h3>
+      <p>Reduce unnecessary expenses before construction</p>
+    </div>
   </div>
 </div>
 
-<!-- SOLUTION -->
+<!-- HOW IT WORKS -->
 <div class="container">
-  <h2>How Dream Ladders Helps</h2>
+  <h2>How It Works</h2>
   <div class="card">
-    <p>✔ AI-powered estimation</p>
-    <p>✔ Civil Engineer verification</p>
-    <p>✔ Accurate material quantities</p>
-    <p>✔ Cost-saving insights</p>
+    <p>1. You share project details</p>
+    <p>2. AI generates estimate instantly</p>
+    <p>3. Engineer verifies calculations</p>
+    <p>4. You receive detailed report</p>
   </div>
 </div>
 
 <!-- CASE STUDY -->
 <div class="container">
-  <h2>Real Case Study</h2>
+  <h2>Real Savings Example</h2>
   <div class="card">
-    <p>1800 sqft house (Planning stage)</p>
+    <p>1800 sqft house</p>
     <p>Steel saved: ₹52,500</p>
     <p>Concrete saved: ₹72,000</p>
     <p>Hidden cost removed: ₹1,10,000</p>
-    <p class="highlight">Total Saved: ₹2,34,500</p>
+    <h2 class="highlight">Total Saved: ₹2,34,500</h2>
   </div>
 </div>
 
 <!-- PRICING -->
 <div class="container">
-  <h2>Choose Your Plan</h2>
-  <div class="pricing">
-    
-    <div class="price-box">
+  <h2>Pricing</h2>
+  <div class="grid">
+    <div class="card">
       <h3>Basic</h3>
       <p>₹1,999</p>
       <p>AI Estimate</p>
     </div>
-
-    <div class="price-box">
+    <div class="card">
       <h3>Standard ⭐</h3>
       <p>₹4,999</p>
       <p>AI + Engineer Verified</p>
-      <p>Consultation</p>
     </div>
-
-    <div class="price-box">
+    <div class="card">
       <h3>Premium</h3>
       <p>₹14,999</p>
       <p>Full Planning Guidance</p>
-      <p>Cost Optimization</p>
     </div>
-
   </div>
 </div>
 
-<!-- TRUST -->
+<!-- COMPANY STRUCTURE -->
 <div class="container">
-  <h2>Why Choose Us</h2>
+  <h2>Our System</h2>
   <div class="card">
-    <p>✔ Civil Engineer Verified</p>
-    <p>✔ Transparent Calculations</p>
-    <p>✔ Built for Indian Homeowners</p>
+    <p><strong>Engineering Team:</strong> Estimation + Structural</p>
+    <p><strong>AI Team:</strong> Estimation Engine + Automation</p>
+    <p><strong>Sales:</strong> Client Conversion & Support</p>
+  </div>
+</div>
+
+<!-- CAREERS -->
+<div class="container">
+  <h2>Join Dream Ladders</h2>
+  <div class="card">
+    <p>We are building the future of construction planning.</p>
+    <p>Open Roles:</p>
+    <ul>
+      <li>Estimation Engineer</li>
+      <li>AI Developer</li>
+      <li>Sales Executive</li>
+    </ul>
+  </div>
+</div>
+
+<!-- FOUNDER -->
+<div class="container">
+  <h2>Founder</h2>
+  <div class="card" style="text-align:center;">
+    <img src="your-photo.jpg" style="width:120px;border-radius:50%;">
+    <p><strong>Rajesh – Civil Engineer</strong></p>
+    <p>Building AI-powered solutions for smarter construction decisions.</p>
   </div>
 </div>
 
 <!-- CTA -->
 <section class="hero">
   <h2>Don’t Start Construction Blindly</h2>
-  <p>One mistake can cost lakhs.</p>
+  <p>If this saves even one mistake, it pays for itself.</p>
   <a class="btn" href="https://wa.me/917093218658">Get My Estimate</a>
 </section>
 
